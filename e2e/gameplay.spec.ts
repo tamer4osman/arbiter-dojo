@@ -2,7 +2,7 @@
  * pause, gamepad (mocked Xbox pad), round/match end, rematch.
  * Six-button layout: J/K/L = light/medium/heavy punch, U/I/O = light/medium/
  * heavy kick, B throw, N drive impact, M drive parry, , drive rush, . mute. */
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
 import { bootToMenu, enterFight, trackErrors, press, withGame, gamepadMockScript } from './helpers';
 
 /** Freeze the AI in a long knockdown far away so player-input tests are
@@ -273,7 +273,7 @@ test.describe('battle systems', () => {
     // recent-call ring buffer holds the last 10 calls; none may have failed
     expect(stats.failedRecent).toBe(0);
     expect(errors, errors.join('\n')).toEqual([]);
-  }, { timeout: 45000 });
+  });
 
   test('F1 kernel trace panel opens with live decisions', async ({ page }) => {
     await enterFight(page);

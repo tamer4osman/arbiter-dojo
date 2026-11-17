@@ -44,7 +44,8 @@ await page.evaluate(() => {
   (window as unknown as { __game: { setPaused: (p: boolean) => void } }).__game.setPaused(true);
 });
 const rows: Array<[string, number]> = [];
-for (const [who, state, move, vy, name] of SHOTS) {
+for (const tuple of SHOTS) {
+  const [w, st, mv, v, name] = tuple;
   const m = await page.evaluate(([w, st, mv, v]) => {
     const g = (window as unknown as {
       __game: {
@@ -54,6 +55,7 @@ for (const [who, state, move, vy, name] of SHOTS) {
     g.debugDrawState(w, st, mv, v);
     const canvas = document.querySelector('canvas') as HTMLCanvasElement;
     const ctx = canvas.getContext('2d');
+    if (!ctx) throw new Error('2d context unavailable');
     const x0 = 610, y0 = 200, x1 = 1310, y1 = 958;
     const img = ctx.getImageData(x0, y0, x1 - x0, y1 - y0);
     let minY = -1, maxY = -1;
@@ -67,7 +69,7 @@ for (const [who, state, move, vy, name] of SHOTS) {
     }
     const data = canvas.toDataURL('image/png');
     return { h: maxY - minY + 1, data };
-  }, [who, state, move, vy]);
+  }, tuple);
   rows.push([name, m.h]);
   await page.screenshot({ path: `${OUT}/${name}.png`, fullPage: false });
   // save raw canvas png (crisper)
