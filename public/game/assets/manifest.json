@@ -1,0 +1,565 @@
+{
+ "poses": [
+  {
+   "id": "kaito_A_idle",
+   "file": "poses/kaito/kaito_A_idle.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 0,
+   "label": "idle",
+   "w": 396,
+   "h": 763,
+   "draw_h": 340.0
+  },
+  {
+   "id": "kaito_A_walk_f",
+   "file": "poses/kaito/kaito_A_walk_f.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 1,
+   "label": "walk_f",
+   "w": 426,
+   "h": 762,
+   "draw_h": 339.6
+  },
+  {
+   "id": "kaito_A_walk_b",
+   "file": "poses/kaito/kaito_A_walk_b.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 2,
+   "label": "walk_b",
+   "w": 433,
+   "h": 756,
+   "draw_h": 336.9
+  },
+  {
+   "id": "kaito_A_crouch",
+   "file": "poses/kaito/kaito_A_crouch.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 3,
+   "label": "crouch",
+   "w": 400,
+   "h": 510,
+   "draw_h": 227.3
+  },
+  {
+   "id": "kaito_A_crouch_guard",
+   "file": "poses/kaito/kaito_A_crouch_guard.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 4,
+   "label": "crouch_guard",
+   "w": 339,
+   "h": 615,
+   "draw_h": 274.0
+  },
+  {
+   "id": "kaito_A_guard_high",
+   "file": "poses/kaito/kaito_A_guard_high.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 5,
+   "label": "guard_high",
+   "w": 362,
+   "h": 758,
+   "draw_h": 337.8
+  },
+  {
+   "id": "kaito_A_hit_light",
+   "file": "poses/kaito/kaito_A_hit_light.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 6,
+   "label": "hit_light",
+   "w": 416,
+   "h": 743,
+   "draw_h": 331.1
+  },
+  {
+   "id": "kaito_A_blockstun",
+   "file": "poses/kaito/kaito_A_blockstun.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 7,
+   "label": "blockstun",
+   "w": 334,
+   "h": 753,
+   "draw_h": 335.5
+  },
+  {
+   "id": "kaito_A_jump_f",
+   "file": "poses/kaito/kaito_A_jump_f.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 8,
+   "label": "jump_f",
+   "w": 367,
+   "h": 688,
+   "draw_h": 306.6
+  },
+  {
+   "id": "kaito_A_jump_up",
+   "file": "poses/kaito/kaito_A_jump_up.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 9,
+   "label": "jump_up",
+   "w": 433,
+   "h": 559,
+   "draw_h": 249.1
+  },
+  {
+   "id": "kaito_A_jump_down",
+   "file": "poses/kaito/kaito_A_jump_down.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 10,
+   "label": "jump_down",
+   "w": 371,
+   "h": 644,
+   "draw_h": 287.0
+  },
+  {
+   "id": "kaito_A_dash",
+   "file": "poses/kaito/kaito_A_dash.png",
+   "sheet": "Kaito Ren_Movement_Defense.jpg",
+   "index": 11,
+   "label": "dash",
+   "w": 421,
+   "h": 569,
+   "draw_h": 253.6
+  },
+  {
+   "id": "kaito_B_jab",
+   "file": "poses/kaito/kaito_B_jab.png",
+   "sheet": "Kaito Ren_Attacks.jpg",
+   "index": 0,
+   "label": "jab",
+   "w": 791,
+   "h": 922,
+   "draw_h": 373.5
+  },
+  {
+   "id": "kaito_B_cross",
+   "file": "poses/kaito/kaito_B_cross.png",
+   "sheet": "Kaito Ren_Attacks.jpg",
+   "index": 1,
+   "label": "cross",
+   "w": 900,
+   "h": 854,
+   "draw_h": 339.8
+  },
+  {
+   "id": "kaito_B_launcher",
+   "file": "poses/kaito/kaito_B_launcher.png",
+   "sheet": "Kaito Ren_Attacks.jpg",
+   "index": 2,
+   "label": "launcher",
+   "w": 636,
+   "h": 923,
+   "draw_h": 411.3
+  },
+  {
+   "id": "kaito_B_high_kick",
+   "file": "poses/kaito/kaito_B_high_kick.png",
+   "sheet": "Kaito Ren_Attacks.jpg",
+   "index": 3,
+   "label": "high_kick",
+   "w": 813,
+   "h": 727,
+   "draw_h": 334.0
+  },
+  {
+   "id": "kaito_B_heavy_kick",
+   "file": "poses/kaito/kaito_B_heavy_kick.png",
+   "sheet": "Kaito Ren_Attacks.jpg",
+   "index": 4,
+   "label": "heavy_kick",
+   "w": 559,
+   "h": 799,
+   "draw_h": 356.0
+  },
+  {
+   "id": "kaito_B_sweep",
+   "file": "poses/kaito/kaito_B_sweep.png",
+   "sheet": "Kaito Ren_Attacks.jpg",
+   "index": 5,
+   "label": "sweep",
+   "w": 905,
+   "h": 633,
+   "draw_h": 282.1
+  },
+  {
+   "id": "kaito_C_hit_high",
+   "file": "poses/kaito/kaito_C_hit_high.png",
+   "sheet": "Kaito Ren_Reactions_Signature.jpg",
+   "index": 0,
+   "label": "hit_high",
+   "w": 664,
+   "h": 757,
+   "draw_h": 337.3
+  },
+  {
+   "id": "kaito_C_hit_body",
+   "file": "poses/kaito/kaito_C_hit_body.png",
+   "sheet": "Kaito Ren_Reactions_Signature.jpg",
+   "index": 1,
+   "label": "hit_body",
+   "w": 526,
+   "h": 752,
+   "draw_h": 335.1
+  },
+  {
+   "id": "kaito_C_knockdown",
+   "file": "poses/kaito/kaito_C_knockdown.png",
+   "sheet": "Kaito Ren_Reactions_Signature.jpg",
+   "index": 2,
+   "label": "knockdown",
+   "w": 957,
+   "h": 425,
+   "draw_h": 189.4
+  },
+  {
+   "id": "kaito_C_sig_charge",
+   "file": "poses/kaito/kaito_C_sig_charge.png",
+   "sheet": "Kaito Ren_Reactions_Signature.jpg",
+   "index": 3,
+   "label": "sig_charge",
+   "w": 679,
+   "h": 761,
+   "draw_h": 339.1
+  },
+  {
+   "id": "kaito_C_sig_fire",
+   "file": "poses/kaito/kaito_C_sig_fire.png",
+   "sheet": "Kaito Ren_Reactions_Signature.jpg",
+   "index": 4,
+   "label": "sig_fire",
+   "w": 495,
+   "h": 838,
+   "draw_h": 364.0
+  },
+  {
+   "id": "kaito_C_dizzy",
+   "file": "poses/kaito/kaito_C_dizzy.png",
+   "sheet": "Kaito Ren_Reactions_Signature.jpg",
+   "index": 5,
+   "label": "dizzy",
+   "w": 441,
+   "h": 789,
+   "draw_h": 344.0
+  },
+  {
+   "id": "vx9_A_idle",
+   "file": "poses/vx9/vx9_A_idle.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 0,
+   "label": "idle",
+   "w": 305,
+   "h": 506,
+   "draw_h": 374.0
+  },
+  {
+   "id": "vx9_A_walk_f",
+   "file": "poses/vx9/vx9_A_walk_f.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 1,
+   "label": "walk_f",
+   "w": 299,
+   "h": 511,
+   "draw_h": 377.7
+  },
+  {
+   "id": "vx9_A_walk_b",
+   "file": "poses/vx9/vx9_A_walk_b.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 2,
+   "label": "walk_b",
+   "w": 312,
+   "h": 508,
+   "draw_h": 375.4
+  },
+  {
+   "id": "vx9_A_crouch",
+   "file": "poses/vx9/vx9_A_crouch.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 3,
+   "label": "crouch",
+   "w": 372,
+   "h": 426,
+   "draw_h": 314.8
+  },
+  {
+   "id": "vx9_A_blockstun",
+   "file": "poses/vx9/vx9_A_blockstun.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 4,
+   "label": "blockstun",
+   "w": 330,
+   "h": 492,
+   "draw_h": 371.8
+  },
+  {
+   "id": "vx9_A_guard_high",
+   "file": "poses/vx9/vx9_A_guard_high.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 5,
+   "label": "guard_high",
+   "w": 288,
+   "h": 362,
+   "draw_h": 267.5
+  },
+  {
+   "id": "vx9_A_jump_up",
+   "file": "poses/vx9/vx9_A_jump_up.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 6,
+   "label": "jump_up",
+   "w": 267,
+   "h": 489,
+   "draw_h": 361.5
+  },
+  {
+   "id": "vx9_A_jump_down",
+   "file": "poses/vx9/vx9_A_jump_down.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 7,
+   "label": "jump_down",
+   "w": 280,
+   "h": 501,
+   "draw_h": 370.3
+  },
+  {
+   "id": "vx9_A_dash",
+   "file": "poses/vx9/vx9_A_dash.png",
+   "sheet": "VX-9 ARBITER_Movement_Defense.jpg",
+   "index": 8,
+   "label": "dash",
+   "w": 374,
+   "h": 395,
+   "draw_h": 291.9
+  },
+  {
+   "id": "vx9_B_jab",
+   "file": "poses/vx9/vx9_B_jab.png",
+   "sheet": "VX-9 ARBITER_Attacks.jpg",
+   "index": 0,
+   "label": "jab",
+   "w": 695,
+   "h": 762,
+   "draw_h": 388.4
+  },
+  {
+   "id": "vx9_B_cross",
+   "file": "poses/vx9/vx9_B_cross.png",
+   "sheet": "VX-9 ARBITER_Attacks.jpg",
+   "index": 1,
+   "label": "cross",
+   "w": 790,
+   "h": 730,
+   "draw_h": 367.4
+  },
+  {
+   "id": "vx9_B_launcher",
+   "file": "poses/vx9/vx9_B_launcher.png",
+   "sheet": "VX-9 ARBITER_Attacks.jpg",
+   "index": 2,
+   "label": "launcher",
+   "w": 509,
+   "h": 866,
+   "draw_h": 500.1
+  },
+  {
+   "id": "vx9_B_high_kick",
+   "file": "poses/vx9/vx9_B_high_kick.png",
+   "sheet": "VX-9 ARBITER_Attacks.jpg",
+   "index": 3,
+   "label": "high_kick",
+   "w": 746,
+   "h": 707,
+   "draw_h": 384.2
+  },
+  {
+   "id": "vx9_B_heavy_kick",
+   "file": "poses/vx9/vx9_B_heavy_kick.png",
+   "sheet": "VX-9 ARBITER_Attacks.jpg",
+   "index": 4,
+   "label": "heavy_kick",
+   "w": 478,
+   "h": 777,
+   "draw_h": 441.8
+  },
+  {
+   "id": "vx9_B_sweep",
+   "file": "poses/vx9/vx9_B_sweep.png",
+   "sheet": "VX-9 ARBITER_Attacks.jpg",
+   "index": 5,
+   "label": "sweep",
+   "w": 834,
+   "h": 526,
+   "draw_h": 288.0
+  },
+  {
+   "id": "vx9_C_hit_high",
+   "file": "poses/vx9/vx9_C_hit_high.png",
+   "sheet": "VX-9 ARBITER_ Reactions_Signature.jpg",
+   "index": 0,
+   "label": "hit_high",
+   "w": 782,
+   "h": 731,
+   "draw_h": 372.6
+  },
+  {
+   "id": "vx9_C_hit_body",
+   "file": "poses/vx9/vx9_C_hit_body.png",
+   "sheet": "VX-9 ARBITER_ Reactions_Signature.jpg",
+   "index": 1,
+   "label": "hit_body",
+   "w": 546,
+   "h": 727,
+   "draw_h": 383.8
+  },
+  {
+   "id": "vx9_C_knockdown",
+   "file": "poses/vx9/vx9_C_knockdown.png",
+   "sheet": "VX-9 ARBITER_ Reactions_Signature.jpg",
+   "index": 2,
+   "label": "knockdown",
+   "w": 897,
+   "h": 337,
+   "draw_h": 177.9
+  },
+  {
+   "id": "vx9_C_sig_charge",
+   "file": "poses/vx9/vx9_C_sig_charge.png",
+   "sheet": "VX-9 ARBITER_ Reactions_Signature.jpg",
+   "index": 3,
+   "label": "sig_charge",
+   "w": 646,
+   "h": 729,
+   "draw_h": 393.8
+  },
+  {
+   "id": "vx9_C_sig_fire",
+   "file": "poses/vx9/vx9_C_sig_fire.png",
+   "sheet": "VX-9 ARBITER_ Reactions_Signature.jpg",
+   "index": 4,
+   "label": "sig_fire",
+   "w": 522,
+   "h": 755,
+   "draw_h": 396.0
+  },
+  {
+   "id": "vx9_C_dizzy",
+   "file": "poses/vx9/vx9_C_dizzy.png",
+   "sheet": "VX-9 ARBITER_ Reactions_Signature.jpg",
+   "index": 5,
+   "label": "dizzy",
+   "w": 591,
+   "h": 633,
+   "draw_h": 387.2
+  }
+ ],
+ "ui": {
+  "health_frame": {
+   "file": "ui/health_frame.png",
+   "w": 1200,
+   "h": 240
+  },
+  "drive_gauge": {
+   "file": "ui/drive_gauge.png",
+   "w": 620,
+   "h": 175
+  },
+  "timer_disc": {
+   "file": "ui/timer_disc.png",
+   "w": 390,
+   "h": 320
+  },
+  "portrait_kaito": {
+   "file": "ui/portrait_kaito.png",
+   "w": 420,
+   "h": 400
+  },
+  "portrait_vx9": {
+   "file": "ui/portrait_vx9.png",
+   "w": 402,
+   "h": 400
+  },
+  "vs_screen": {
+   "file": "ui/vs_screen.png",
+   "w": 1320,
+   "h": 513
+  },
+  "title_emblem": {
+   "file": "ui/title_emblem.png",
+   "w": 580,
+   "h": 640
+  },
+  "ko_banner": {
+   "file": "ui/ko_banner.png",
+   "w": 1275,
+   "h": 413
+  }
+ },
+ "vfx": {
+  "hitspark": {
+   "file": "vfx/hitspark.png",
+   "w": 530,
+   "h": 480
+  },
+  "heavy_flash": {
+   "file": "vfx/heavy_flash.png",
+   "w": 700,
+   "h": 635
+  },
+  "proj_kaito": {
+   "file": "vfx/proj_kaito.png",
+   "w": 665,
+   "h": 380
+  },
+  "proj_vx9": {
+   "file": "vfx/proj_vx9.png",
+   "w": 625,
+   "h": 355
+  },
+  "parry_ring": {
+   "file": "vfx/parry_ring.png",
+   "w": 515,
+   "h": 650
+  },
+  "dust": {
+   "file": "vfx/dust.png",
+   "w": 640,
+   "h": 645
+  },
+  "aura_kaito": {
+   "file": "vfx/aura_kaito.png",
+   "w": 280,
+   "h": 701
+  },
+  "aura_vx9": {
+   "file": "vfx/aura_vx9.png",
+   "w": 298,
+   "h": 701
+  },
+  "ko_burst": {
+   "file": "vfx/ko_burst.png",
+   "w": 890,
+   "h": 791
+  }
+ },
+ "stages": {
+  "stage_umbra": {
+   "file": "stages/stage_umbra.jpg",
+   "w": 1920,
+   "h": 1080
+  },
+  "stage_rooftop": {
+   "file": "stages/stage_rooftop.jpg",
+   "w": 1920,
+   "h": 1080
+  },
+  "stage_docks": {
+   "file": "stages/stage_docks.jpg",
+   "w": 1920,
+   "h": 1080
+  },
+  "stage_finale": {
+   "file": "stages/stage_finale.jpg",
+   "w": 1920,
+   "h": 1080
+  }
+ }
+}
