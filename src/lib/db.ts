@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient } from '@prisma/client' // eslint-disable-line @typescript-eslint/no-require-imports
 
 const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined
